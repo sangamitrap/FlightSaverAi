@@ -1,0 +1,44 @@
+{
+    "price_target": "price",
+    "price_features": [
+        "airline",
+        "source_city",
+        "departure_time",
+        "stops",
+        "arrival_time",
+        "destination_city",
+        "class",
+        "duration",
+        "days_left"
+    ],
+    "price_categorical_features": [
+        "airline",
+        "source_city",
+        "departure_time",
+        "stops",
+        "arrival_time",
+        "destination_city",
+        "class"
+    ],
+    "delay_target": "delayed",
+    "delay_definition": "Arrival delay of at least 15 minutes",
+    "delay_threshold": 0.2,
+    "delay_features": [
+        "month",
+        "day_of_month",
+        "day_of_week",
+        "op_unique_carrier",
+        "origin",
+        "dest",
+        "crs_dep_time",
+        "crs_arr_time",
+        "crs_elapsed_time",
+        "distance"
+    ],
+    "delay_categorical_features": [
+        "op_unique_carrier",
+        "origin",
+        "dest"
+    ],
+    "delay_model_file": "flight_delay_model_full_year.cbm"
+}

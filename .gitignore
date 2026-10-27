@@ -1,0 +1,42 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+temp/
+tmp/
+
+
+# Large flight datasets
+Flight_delay/
+Flight_price_prediction/
+
+# CatBoost training logs
+catboost_info/
+
+# Keep model files and results tracked
+!models/
+!results/
