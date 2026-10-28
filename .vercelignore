@@ -1,0 +1,9 @@
+
+Flight_delay/flight_data_2024.csv
+Flight_delay/flight_data_2024_random_sample.csv
+Flight_delay/flight_data_2024_sample.csv
+Flight_price_prediction/
+FlightSaverAI.ipynb
+catboost_info/
+.venv/
+__pycache__/
